@@ -7,4 +7,4 @@ load_dotenv()
 
 # Отримуємо токен з .env файлу
 CHATGPT_TOKEN = os.getenv("CHATGPT_TOKEN")
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+BOT_TOKEN = os.getenv("BOT_TOKEN")

@@ -1,11 +1,11 @@
 import logging
 
-from telegram import Update
-from telegram.ext import ContextTypes
+from telegram import *
+from telegram.ext import *
 
 from config import CHATGPT_TOKEN
-from .gpt import ChatGPTService
-from .utils import (send_image, send_text, load_message, show_main_menu, load_prompt, send_text_buttons)
+from gpt import *
+from utils import *
 
 chatgpt_service = ChatGPTService(CHATGPT_TOKEN)
 
