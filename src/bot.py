@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler
 
 from config import TELEGRAM_TOKEN
-from . import handlers
+from .handlers import start
 
 app = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
 
